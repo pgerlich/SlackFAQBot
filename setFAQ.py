@@ -23,7 +23,7 @@ def setter_handler(event, context):
             
             # Setup Dynamo connection
             dynamodb = boto3.resource('dynamodb', region_name='us-west-1')
-            table = dynamodb.Table('BloomBotFAQ')
+            table = dynamodb.Table('SlackFAQ')
         
         
             table.put_item(
