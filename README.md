@@ -1,5 +1,5 @@
 # SlackFAQBot
-SlackFAQ is a bot designed to run on AWS Lambda to perform simple FAQ responses. In essence, you can setup an admin-only room which can be granted permissions to modify the FAQ responses for the bot. Users in the general chat room can then query the FAQ which can be continuously updated by admins as needed.
+SlackFAQ is a bot designed to run on AWS Lambda to give simple FAQ responses in your slack channels. In essence, you can setup an admin-only room which can be granted permissions to modify the FAQ responses for the bot. Users in the general chat room can then query the FAQ. This is helpful when you have a massive room with the same questions that are asked over and over.
 
 ## Setup
 
