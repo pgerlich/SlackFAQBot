@@ -35,7 +35,7 @@ Finally you'll need to create a new API. This API will need two resources (getFA
 Now that you've created your API, you'll want to take the two endpoint URLS (https://.....execute-api.REGION.amazonaws.com/MyApi/getFAQ and setFAQ) and set them as the URL for each of your getFAQ and setFAQ commands to post to.
 
 Now that you've got those commands configured, you can install the app into a Slack organization and fire away. Requests will be in the form of:
-getFaq faq_key
-setFaq faq_key:::new_faq_response.
+- /getFaq faq_key
+- /setFaq faq_key:::new_faq_response.
 
 Thanks for reading! Feel free to open issues or pull requests with any questions/suggestions/comments.
