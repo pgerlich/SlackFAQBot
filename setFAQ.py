@@ -33,6 +33,6 @@ def setter_handler(event, context):
                 }
             )
             
-            response = "Successfully set {} to {}".format(faq_key, faq_response)
+            response = "Successfully set `{}` to\n\n>>> {}".format(faq_key, faq_response)
 
         return { "response_type": "in_channel", "text": response}
